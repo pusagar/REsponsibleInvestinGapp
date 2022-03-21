@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
 from prediction import get_prediction, ordinal_encoder,labelencoder
 
 model = joblib.load(r'model/logreg.pkl')
